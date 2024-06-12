@@ -36,7 +36,7 @@ function App() {
           <Invoices invoices={invoices}/>
         </Tab>
         <Tab eventKey="grid" title="Tableau">
-          <InvoicesGrid invoices={datas} onStatusChange={()=>getInvoices()}/>
+          <InvoicesGrid invoices={datas}/>
           
         </Tab>
 
