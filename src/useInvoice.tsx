@@ -27,8 +27,8 @@ export default function useInvoice() {
             await fetch(url + ":8085/active?id="+invoice.Id+"&active="+invoice.Active,{
               method: "GET"
             });
-            let sum = 0;
-            console.log(invoices);
+            //let sum = 0;
+            //console.log(invoices);
             //console.log(invoice);
             //console.log(datas);
             //console.log(datas.map((value: Invoice)=>{ if (value.Id === invoice.Id) {value.Active = invoice.Active} return value;}).filter((value: Invoice) => { return value.Active}).map((value: Invoice) => { sum += value.Value; value.Value = Math.round(sum); return value; }));
